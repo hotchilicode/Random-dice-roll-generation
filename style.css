@@ -1,0 +1,41 @@
+body{
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#num{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+button {
+    background-color: #ffffff; 
+    color: #000000; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5); 
+    transition: background-color 0.3s ease; 
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #f7f7f7; /* Light gray background on hover */
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.7); /* Stronger white glow effect on hover */
+    font-weight: bold;
+  }
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
